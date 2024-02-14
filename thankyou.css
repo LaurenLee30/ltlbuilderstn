@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat+Alternates:wght@400;500&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lemonada:wght@500&family=Philosopher:wght@700&family=Syncopate:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+:root {
+  --headerclr: #222533;
+  --mainclr: #ffcb0f;
+  --soft-gold: #bfa75d;
+  --gray: #838181;
+  --darkgray: #606060;
+  --lightgray: #c9c9c9;
+  --black: #222222;
+
+  --mainfont: 'Montserrat', sans-serif;
+  --subtext: 'Caveat', sans-serif;
+  --babytext: 'Oooh+Baby', sans-serif;
+  --logotext: 'Lemonada', sans-serif;
+  --fancy: 'Qwitcher Grypen', sans-serif;
+
+  --lightgold: #f7ef8a;
+}
+
+
+
+
+body {
+  margin: 0;
+  background-color: var(--lightgray);
+}
+
+h1, p {
+  font-family: var(--mainfont);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 250px;
+    height: 550px;
+
+  }
+}
